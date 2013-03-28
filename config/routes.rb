@@ -1,5 +1,7 @@
 Omrails::Application.routes.draw do
 
+  resources :pins
+
   devise_for :users
 
   get "about" => "static_pages#about"
