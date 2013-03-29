@@ -16,3 +16,6 @@
 
 # Ignore stupid mac file
 .DS_Store
+
+# Ignore Paperclip Uploaded Files
+/public/system
